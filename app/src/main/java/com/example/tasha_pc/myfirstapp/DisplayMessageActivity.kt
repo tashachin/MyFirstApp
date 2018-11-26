@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
+const val EXTRA_MESSAGE = "com.example.tasha_pc.myfirstapp.MESSAGE"
+
 class DisplayMessageActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
